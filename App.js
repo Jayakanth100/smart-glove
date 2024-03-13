@@ -3,7 +3,7 @@ import { StyleSheet, Text, View, TouchableOpacity, Alert } from 'react-native';
 import { StatusBar } from 'expo-status-bar';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { NavigationContainer } from '@react-navigation/native';
-
+import {Sample} from 'sample.js'
 const Tab = createBottomTabNavigator();
 
 function HomeScreen({ navigation }) {
